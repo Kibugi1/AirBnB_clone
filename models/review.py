@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""A script that defines the Review class."""
+"""Script that defines the Review class."""
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """Represents a review.
+    """Represent a review class.
     Attributes:
         place_id (str): The Place id.
         user_id (str): The User id.
